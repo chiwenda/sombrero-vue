@@ -1,14 +1,22 @@
+/*
+ * @Description: 
+ * @Author: chiwenda
+ * @Date: 2022-10-23 20:27:32
+ * @LastEditTime: 2022-10-24 23:32:20
+ * @LastEditors: chiwenda
+ * @FilePath: /go-sombrero/Users/cwd/Documents/project/vue/sombrero-vue/src/router/index.js
+ */
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import Index from "@/views/index.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView,
+    name: "index",
+    component: Index,
   },
   {
     path: "/about",
